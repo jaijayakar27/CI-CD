@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Generator {
 
     public static void main(String[] args) {
-        String rootFolderPath ="C:\\Users\\91738\\Desktop\\VIT 7th SEM\\Project\\sql_files";
+        String rootFolderPath ="sql_files";
         File rootFolder = new File(rootFolderPath);
 
         if (!rootFolder.isDirectory()) {
